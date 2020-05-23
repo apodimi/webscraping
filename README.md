@@ -1,4 +1,4 @@
-# webscraping
+# Web Scraping
 Use Web Scraping tool to export data from websites fast and easy.
 
 
