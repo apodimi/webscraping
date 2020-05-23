@@ -14,14 +14,7 @@ BOT_NAME = 'WebsiteScrap'
 SPIDER_MODULES = ['WebsiteScrap.spiders']
 NEWSPIDER_MODULE = 'WebsiteScrap.spiders'
 
-#####################################################################
-# EXCEL EXPORT                                                      #
-#  Run your spider and export the data to XLSX                      #
-# (this command will overwrite the  file if it already exists)      #
-#####################################################################
-FEED_EXPORTERS = {
-    'xlsx': 'scrapy_xlsx.XlsxItemExporter',
-}
+
 
 
 
