@@ -1,10 +1,12 @@
+#WARNING!!!!!
+#IT IS NOT ALLOWED TO ALL WEBSITES. BEFORE USING IT,YOU MUST BE SURE THAT THE WEBSITE COMMITS THE EXPORT OF DATA FROM THIS.
 # -*- coding: utf-8 -*-
 import scrapy
 from ..items import WebsitescrapItem 
 
 class WebSpiderSpider(scrapy.Spider):
     name = 'web_spider'
-    start_urls = ['https://www.amazon.com/s?k=pc+case&rh=n%3A541966%2Cn%3A572238&dc&qid=1590262124&rnid=2941120011&ref=sr_nr_n_2']
+    start_urls = ['# ADD THE URL FROM THE PAGE WHERE YOU WANT TO TAKE THE DATA']
 
     def parse(self, response):
 
