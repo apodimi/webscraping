@@ -28,7 +28,7 @@ FEED_EXPORTERS = {
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'WebsiteScrap (Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html))'
+#USER_AGENT = 'WebsiteScrap (Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html))'
 
 
 # Obey robots.txt rules
